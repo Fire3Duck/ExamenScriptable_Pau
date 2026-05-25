@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
@@ -31,14 +32,8 @@ public class InventoryManager : MonoBehaviour
                 itemsNames[i].text = item.itemName;
                 itemsImages[i].sprite = item.itemSprite;
 
-
-                itemsSlots[i].slotItem = item;
-                itemsSlots[i].slotNumber = i;
-
-
                 return;
             }
         }
     }
-
 }

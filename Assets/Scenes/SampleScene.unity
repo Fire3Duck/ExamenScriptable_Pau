@@ -737,8 +737,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
   items:
-  - {fileID: 11400000, guid: 29aa5892b13997748ac7967b26e113a5, type: 2}
-  - {fileID: 11400000, guid: a041640d9e3a14b498b411ee6d0e8581, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   itemsNames:
   - {fileID: 1146188458}
   - {fileID: 475423804}
@@ -1081,6 +1081,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1440110176}
     m_Modifications:
+    - target: {fileID: 696870629031355611, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
+      propertyPath: m_Name
+      value: Image 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207379739140104918, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
+      propertyPath: m_Name
+      value: Text 2 (Legacy)
+      objectReference: {fileID: 0}
     - target: {fileID: 5238003904692676428, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
       propertyPath: m_Name
       value: Slot (1)
@@ -1456,6 +1464,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1440110176}
     m_Modifications:
+    - target: {fileID: 696870629031355611, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
+      propertyPath: m_Name
+      value: Image 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207379739140104918, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
+      propertyPath: m_Name
+      value: Text 1 (Legacy)
+      objectReference: {fileID: 0}
     - target: {fileID: 5238003904692676428, guid: d7a2f5cef54f5fe418f96015d7c76fc4, type: 3}
       propertyPath: m_Name
       value: Slot
